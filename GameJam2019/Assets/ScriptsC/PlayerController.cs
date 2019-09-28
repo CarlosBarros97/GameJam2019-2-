@@ -24,7 +24,7 @@ public class PlayerController : MonoBehaviour
 
             }
         } // Jump if spacebar is pressed and checks if player has already jumped
-        if (Input.GetButton("Jump")&&isGround)
+        if (Input.GetButtonDown("Jump")&&isGround&&rb.velocity.y==0)
         {
             rb.AddForce(new Vector2(0f, jumpForce));
             isGround = false;
