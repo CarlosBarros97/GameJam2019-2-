@@ -18,12 +18,12 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         if (Input.GetButton("Horizontal"))
-        {
+        {// Move player if arrow keys are pressed
             transform.position += new Vector3(moveSpeed * Input.GetAxis("Horizontal") * Time.deltaTime, 0f, 0f);
             {
 
             }
-        }
+        } // Jump if spacebar is pressed and checks if player has already jumped
         if (Input.GetButton("Jump")&&isGround)
         {
             rb.AddForce(new Vector2(0f, jumpForce));
