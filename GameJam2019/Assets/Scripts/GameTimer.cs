@@ -8,7 +8,7 @@ public class GameTimer : MonoBehaviour
 {
 
     public Text timerText;
-    private float startTime = 150f;
+    private float startTime = 132f;
     private float currentTime;
 
     private void Start()
@@ -21,7 +21,15 @@ public class GameTimer : MonoBehaviour
         currentTime -= 1 * Time.deltaTime;
 
         string minutes = ((int)currentTime / 60).ToString();
-        string seconds = (currentTime % 60).ToString("f0");
+        string seconds;
+        if((currentTime % 60 < 9.5))
+        {
+            seconds = "0" + (currentTime % 60).ToString("f0");
+        }
+        else
+        {
+            seconds = (currentTime % 60).ToString("f0");
+        }
 
         timerText.text = minutes + ":" + seconds;
 
