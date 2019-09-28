@@ -4,29 +4,45 @@ using UnityEngine;
 using UnityEngine.UI;
 public class ChoiceScript : MonoBehaviour
 {
+    public GameTimer gameTimer;
+    public PlayerController playerController;
+
+    public GameObject interactableCanvas;
     public GameObject TextBox;
-    public GameObject Choice01;
-    public GameObject Choice02;
-    public int ChoiceMade;
+    public GameObject choicePanel1;
+    private int eventResult1; // 1 = paid for parking , 2 = didnt pay
 
     public void ChoiceOption1 ()
     {
-        TextBox.GetComponent<Text>().text = "Thanks for Paying";
-        ChoiceMade = 1;
+        TextBox.SetActive(true);
+        TextBox.GetComponent<Text>().text = "Time is money. You lose 20 seconds.";
+        eventResult1 = 1;
     }
     public void ChoiceOption2()
     {
+        TextBox.SetActive(true);
         TextBox.GetComponent<Text>().text = "Ok, then cheap ass";
-        ChoiceMade = 2;
+        eventResult1 = 2;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (ChoiceMade >= 1)
+        if (eventResult1 >= 1)
         {
-            Choice01.SetActive(false);
-            Choice02.SetActive(false);
+            choicePanel1.SetActive(false);
+            playerController.enabled = true;
+        }
+        if(eventResult1 == 1)
+        {
+            gameTimer.removeTime(20f);
+            eventResult1 = 0;
+        }
+        if(eventResult1 == 2)
+        {
+            // SPAWN COP AND MAKE HIM MAKE U PAY
         }
     }
+
+
 }
