@@ -25,16 +25,22 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
+    }
+
+    private void FixedUpdate()
+    {
         if (Input.GetButton("Horizontal"))
         {// Move player if arrow keys are pressed
             transform.position += new Vector3(moveSpeed * Input.GetAxis("Horizontal") * Time.deltaTime, 0f, 0f);
             isMoving = true;
 
-            if(Input.GetAxis("Horizontal") < 0)
+            if (Input.GetAxis("Horizontal") < 0)
             {
                 playerSprite.flipX = true;
             }
-            else if(Input.GetAxis("Horizontal") > 0) {
+            else if (Input.GetAxis("Horizontal") > 0)
+            {
                 playerSprite.flipX = false;
             }
         }
@@ -45,7 +51,7 @@ public class PlayerController : MonoBehaviour
         playerAnimator.SetBool("isMoving", isMoving);
 
         // Jump if spacebar is pressed and checks if player has already jumped
-        if (Input.GetButton("Jump")&&isGround)
+        if (Input.GetButton("Jump") && isGround && rb.velocity.y == 0)
         {
             rb.AddForce(new Vector2(0f, jumpForce));
             isGround = false;
