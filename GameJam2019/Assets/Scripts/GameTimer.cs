@@ -52,6 +52,11 @@ public class GameTimer : MonoBehaviour
         currentTime -= timeRemoved;
     }
 
+    public void addTime(float timeAdded)
+    {
+        currentTime += timeAdded;
+    }
+
 
     // ADD METHOD THAT CHANGES COLOR OF TIMER TEXT WHEN LOW ON TIME
 

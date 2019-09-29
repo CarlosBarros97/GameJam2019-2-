@@ -9,7 +9,7 @@ public class CameraPanner : MonoBehaviour
 
     public float travelSpeed = 1f;
 
-    private Vector3[] camLocations = new[] { new Vector3(0f, 0f, -10f), new Vector3(16f, 0f, -10f) };
+    private Vector3[] camLocations = new[] { new Vector3(0f, 0f, -10f), new Vector3(16f, 0f, -10f), new Vector3(32f, 0f, -10f), new Vector3(48f, 0f, -10f) };
     private int currentCam = 0;
 
     private float step;

@@ -49,17 +49,35 @@ public class InteractableObject : MonoBehaviour
 
         if(interacting)
         {
-            if(Input.GetKeyDown(KeyCode.Y))
+            if(interactID == 1)
             {
-                choiceScript.choicePanel1.SetActive(false);
-                choiceScript.ChoiceOption1();
-                interacting = false;
+                if (Input.GetKeyDown(KeyCode.Y))
+                {
+                    choiceScript.choicePanel1.SetActive(false);
+                    choiceScript.ChoiceOption1();
+                    interacting = false;
+                }
+                if (Input.GetKeyDown(KeyCode.N))
+                {
+                    choiceScript.choicePanel1.SetActive(false);
+                    choiceScript.ChoiceOption2();
+                    interacting = false;
+                }
             }
-            if (Input.GetKeyDown(KeyCode.N))
+            else if(interactID == 2)
             {
-                choiceScript.choicePanel1.SetActive(false);
-                choiceScript.ChoiceOption2();
-                interacting = false;
+                if (Input.GetKeyDown(KeyCode.Y))
+                {
+                    choiceScript.choicePanel1.SetActive(false);
+                    choiceScript.ChoiceOption3();
+                    interacting = false;
+                }
+                if (Input.GetKeyDown(KeyCode.N))
+                {
+                    choiceScript.choicePanel1.SetActive(false);
+                    choiceScript.ChoiceOption4();
+                    interacting = false;
+                }
             }
         }
     }
