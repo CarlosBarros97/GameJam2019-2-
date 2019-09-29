@@ -1,34 +1,37 @@
 fileFormatVersion: 2
-guid: 6891c5ad227e63141bbbcbbdbbd12602
+guid: d6318cb109ef4be47b6d31be79f29226
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4996253763675636097
-    second: walkcycle-gamejam (1)_0
+      213: 5120530924802662523
+    second: walkcycle-fix-gamejam_0
   - first:
-      213: 5161126682576128493
-    second: walkcycle-gamejam (1)_1
+      213: -9214780251370366620
+    second: walkcycle-fix-gamejam_1
   - first:
-      213: -7985498566504219326
-    second: walkcycle-gamejam (1)_2
+      213: -91159956624245219
+    second: walkcycle-fix-gamejam_2
   - first:
-      213: 2157677504443451007
-    second: walkcycle-gamejam (1)_3
+      213: -6446301132617798398
+    second: walkcycle-fix-gamejam_3
   - first:
-      213: 1629545167073807542
-    second: walkcycle-gamejam (1)_4
+      213: 1694865801957370497
+    second: walkcycle-fix-gamejam_4
   - first:
-      213: 2020847911560988778
-    second: walkcycle-gamejam (1)_5
+      213: -3052753151296419069
+    second: walkcycle-fix-gamejam_5
   - first:
-      213: 4578812564860285990
-    second: walkcycle-gamejam (1)_6
+      213: 4473483754655221065
+    second: walkcycle-fix-gamejam_6
   - first:
-      213: 2783304444937746453
-    second: walkcycle-gamejam (1)_7
+      213: 5365198028349628133
+    second: walkcycle-fix-gamejam_7
   - first:
-      213: -1038380758758132052
-    second: walkcycle-gamejam (1)_8
+      213: 2535736660707128686
+    second: walkcycle-fix-gamejam_8
+  - first:
+      213: 9130057634103598578
+    second: walkcycle-fix-gamejam_9
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -137,13 +140,97 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: walkcycle-gamejam (1)_0
+      name: walkcycle-fix-gamejam_0
       rect:
         serializedVersion: 2
-        x: 21
+        x: 42
+        y: 768
+        width: 98
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18541a1dd5e81234e97e73a7ee32c857
+      internalID: 5120530924802662523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkcycle-fix-gamejam_1
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 768
+        width: 82
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f23c2a38fea081145b9080e4ff2725f2
+      internalID: -9214780251370366620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkcycle-fix-gamejam_2
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 576
+        width: 72
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c1c12d8a00be34a9a0fd8501a24c1b
+      internalID: -91159956624245219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkcycle-fix-gamejam_3
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 576
+        width: 78
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46bb096c592c98c4ea3c03ccb650f1e8
+      internalID: -6446301132617798398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkcycle-fix-gamejam_4
+      rect:
+        serializedVersion: 2
+        x: 42
         y: 384
-        width: 49
-        height: 90
+        width: 98
+        height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,20 +238,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93596c587df5f814f933f8f97e86f8fc
-      internalID: -4996253763675636097
+      spriteID: e58b25456681d684a83147a8e150b1ff
+      internalID: 1694865801957370497
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walkcycle-gamejam (1)_1
+      name: walkcycle-fix-gamejam_5
       rect:
         serializedVersion: 2
-        x: 117
+        x: 234
         y: 384
-        width: 41
-        height: 88
+        width: 82
+        height: 176
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,62 +259,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e146226d06b91a045ab8a85132bfcbc0
-      internalID: 5161126682576128493
+      spriteID: 680bf6cd3a54dd6478d85541d13e5c5f
+      internalID: -3052753151296419069
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walkcycle-gamejam (1)_2
+      name: walkcycle-fix-gamejam_6
       rect:
         serializedVersion: 2
-        x: 21
-        y: 288
-        width: 36
-        height: 90
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b51f8749bfff37444a05ec42bb4e6ceb
-      internalID: -7985498566504219326
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walkcycle-gamejam (1)_3
-      rect:
-        serializedVersion: 2
-        x: 117
-        y: 288
-        width: 39
-        height: 91
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f351cb40b73d2894a9a34d7e91864b82
-      internalID: 2157677504443451007
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walkcycle-gamejam (1)_4
-      rect:
-        serializedVersion: 2
-        x: 21
+        x: 42
         y: 192
-        width: 49
-        height: 90
+        width: 70
+        height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,20 +280,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f098cbe3cd4258f469fb827fc11acec5
-      internalID: 1629545167073807542
+      spriteID: 65a71ec4704b8014c9491921fc09b6fd
+      internalID: 4473483754655221065
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walkcycle-gamejam (1)_5
+      name: walkcycle-fix-gamejam_7
       rect:
         serializedVersion: 2
-        x: 117
+        x: 234
         y: 192
-        width: 41
-        height: 88
+        width: 78
+        height: 182
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -256,62 +301,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2b34a241089ddc42b254540670ceaf1
-      internalID: 2020847911560988778
+      spriteID: e903e2d1ee027ee4c941fde8770154e5
+      internalID: 5365198028349628133
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walkcycle-gamejam (1)_6
+      name: walkcycle-fix-gamejam_8
       rect:
         serializedVersion: 2
-        x: 21
-        y: 96
-        width: 35
-        height: 90
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 88d8358b9c599394083633845ec4a8c2
-      internalID: 4578812564860285990
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walkcycle-gamejam (1)_7
-      rect:
-        serializedVersion: 2
-        x: 117
-        y: 96
-        width: 39
-        height: 91
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5c53d2dbd70e32442a596b450927b7cb
-      internalID: 2783304444937746453
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walkcycle-gamejam (1)_8
-      rect:
-        serializedVersion: 2
-        x: 21
+        x: 42
         y: 0
-        width: 49
-        height: 90
+        width: 98
+        height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -319,8 +322,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d948ff5fc46a9d4daff7747968304dc
-      internalID: -1038380758758132052
+      spriteID: 7b2dd32cb1390bd4e9a8b50bc08082fa
+      internalID: 2535736660707128686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkcycle-fix-gamejam_9
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 2
+        width: 72
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b4c1a3ecfe3031458c08252e6d9be5d
+      internalID: 9130057634103598578
       vertices: []
       indices: 
       edges: []

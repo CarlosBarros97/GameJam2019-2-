@@ -27,7 +27,7 @@ public class BibleGirlController : MonoBehaviour
     {
         if(playerStopped)
         {
-            bibleGirl.transform.position = Vector3.MoveTowards(bibleGirl.transform.position, playerController.GetComponent<Transform>().position, step);
+            bibleGirl.transform.position = Vector3.MoveTowards(bibleGirl.transform.position, new Vector3(playerController.GetComponent<Transform>().position.x, bibleGirl.transform.position.y, playerController.GetComponent<Transform>().position.z), step);
 
             if (Vector3.Distance(bibleGirl.transform.position, playerController.GetComponent<Transform>().position) < 1.5f)
             {
