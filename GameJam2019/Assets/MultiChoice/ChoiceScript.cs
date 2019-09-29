@@ -28,13 +28,13 @@ public class ChoiceScript : MonoBehaviour
     public void ChoiceOption3()
     {
         TextBox.SetActive(true);
-        TextBox.GetComponent<Text>().text = "A map will help a lot on such a big campus. +30 seconds.";
+        TextBox.GetComponent<Text>().text = "A map will help a lot on such a big campus. +30 seconds. ALSO make sure you go to room 98!";
         eventResult2 = 1;
     }
     public void ChoiceOption4()
     {
         TextBox.SetActive(true);
-        TextBox.GetComponent<Text>().text = "Yikers! You're definitely going to get lost. -30 seconds.";
+        TextBox.GetComponent<Text>().text = "Yikers! You're definitely going to get lost. -30 seconds. ALSO make sure you go to room 98!";
         eventResult2 = 2;
     }
 

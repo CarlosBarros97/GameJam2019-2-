@@ -6,6 +6,7 @@ public class CameraPanner : MonoBehaviour
 {
 
     public Camera mainCam;
+    public GameObject player;
 
     public float travelSpeed = 1f;
 
@@ -25,6 +26,11 @@ public class CameraPanner : MonoBehaviour
     private void Update()
     {
         moveToNextCam();
+
+        if(currentCam >= 3)
+        {
+            mainCam.transform.position = new Vector3(player.transform.position.x, player.transform.position.y + 1f, -10f);
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

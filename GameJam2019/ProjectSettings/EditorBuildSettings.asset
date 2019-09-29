@@ -14,4 +14,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GameScene1.unity
     guid: a453ead83d385eb4199a879dc675d448
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: c4f8a7285a0b3bf4ebd312806fa7fb29
+  - enabled: 1
+    path: Assets/Scenes/KieranScene.unity
+    guid: 352a32c9a3d8fd64c83ff6c6222650a2
+  - enabled: 1
+    path: Assets/Scenes/YouWin.unity
+    guid: d7150ad66bfe6a646b1bbb3dbfb2645b
   m_configObjects: {}
